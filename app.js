@@ -38,7 +38,7 @@ window.addEventListener('load', () => {
             console.log(output);
           });
 
-          nextDays.appendChild(output);
+          // nextDays.appendChild(output);
           // Set DOM Element from the API
           tempDegreeBox.textContent = Math.floor((temperature - 32) * (5 / 9));
           tempDescBox.textContent = summary;
